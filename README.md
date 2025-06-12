@@ -1,10 +1,10 @@
-# 🔍 Software Defect Prediction using Supervised Machine Learning
+Software Defect Prediction using Supervised Machine Learning
 
 This project applies supervised machine learning (Random Forest Classifier) to predict software defects using labeled software metrics data.
 
 ---
 
-## 📁 Project Structure
+Project Structure
 
 - `data/`: Contains `Train_data.csv` (with defects) and `Test_data.csv` (unlabeled).
 - `notebook/`: Jupyter/Colab notebook for model training and prediction.
@@ -12,8 +12,7 @@ This project applies supervised machine learning (Random Forest Classifier) to p
 - `requirements.txt`: Libraries needed to run this project.
 
 ---
-
-## 📊 Features Used
+Features Used
 
 Typical software code metrics like:
 - LOC (Lines of Code)
@@ -23,7 +22,7 @@ Typical software code metrics like:
 
 ---
 
-## ⚙️ ML Workflow
+ ML Workflow
 
 1. Data Preprocessing
 2. Model Training (Random Forest)
@@ -33,14 +32,14 @@ Typical software code metrics like:
 
 ---
 
-## 🧠 ML Algorithm
+ ML Algorithm
 
 - **Random Forest Classifier**  
   Chosen for its performance and interpretability.
 
 ---
 
-## 📈 Sample Output
+ Sample Output
 
 | Module | Predicted_Defect |
 |--------|------------------|
@@ -49,7 +48,7 @@ Typical software code metrics like:
 
 ---
 
-## 📌 Result
+ Result
 
 - Achieved XX% accuracy on internal validation (if test labels available)
 - `test_with_predictions.csv` is ready for defect inspection
