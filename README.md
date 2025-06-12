@@ -9,7 +9,7 @@ Project Structure
 - `data/`: Contains `Train_data.csv` (with defects) and `Test_data.csv` (unlabeled).
 - `notebook/`: Jupyter/Colab notebook for model training and prediction.
 - `results/`: Final predictions with defect labels.
-- `requirements.txt`: Libraries needed to run this project.
+
 
 ---
 Features Used
@@ -53,10 +53,4 @@ Typical software code metrics like:
 - Achieved XX% accuracy on internal validation (if test labels available)
 - `test_with_predictions.csv` is ready for defect inspection
 
----
-
-## 🚀 Run it Yourself
-
-```bash
-pip install -r requirements.txt
 
